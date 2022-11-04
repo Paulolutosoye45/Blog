@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background-color: #dde5f4;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transition: all 0.3s linear;
+}
+
+.box-model {
+    border: 2px solid #dde5f4;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #f1f7fe;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    padding: 30px;
+}
+
+.EmailSection {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.EmailSection label {
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.EmailSection input {
+    width: 15rem;
+    padding: 10px;
+    /* border: none; */
+    outline: none;
+    border: 2px solid #333;
+}
+
+.EmailSection ::placeholder {
+    text-transform: capitalize;
+}
+
+
+
+.PasswordSection {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.PasswordSection label {
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.PasswordSection input {
+    width: 15rem;
+    padding: 10px;
+    /* border: none; */
+    outline: none;
+    border: 2px solid #333;
+}
+
+.PasswordSection ::placeholder {
+    text-transform: capitalize;
+}
+
+.login-btn {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding: 7px;
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+    background-color: #3e4684;
+    cursor: pointer;
+    color: #f1f7fe;
+    border-radius: 20px;
+}
+
+.otheroptions {
+    display: grid;
+    place-content: center;
+    padding: 20px;
+
+}
+
+.otheroptions p {
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.otheroptions a {
+    text-decoration: none;
+    font-size: 300;
+    text-transform: capitalize;
+    color: #3e4684;
+    margin-left: 1rem;
+}
